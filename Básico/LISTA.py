@@ -3,49 +3,49 @@ def espaco(a):
         print('---------------------------------------------------------------')
 
 lista1 = ['Abacate','Morango', 'Melancia', 'Banana', 'Goiaba', 'Figo', 'Melão']
-lista1.append('Abacaxi') # .append adiciona um elemento a lista, o .append adiciona sempre na última posição da lista
+lista1.append('Abacaxi') 
 print(lista1) 
 
 espaco(1)
 
-print(lista1[1]) # da para usar apenas um índice o colando entre []
+print(lista1[1]) 
 
 espaco(1)
 
-lista1.insert(0, 'Kiwi') # .insert adiciona um elemento a tabela em um determinado lugar/índice 
-print(lista1)            # (índice que vai ser colocado, nome do elemento) --> estrutura do .insert
+lista1.insert(0, 'Kiwi')
+print(lista1)            
 
 espaco(1)
 
-lista1.pop() # .pop exclui o último elemento da lista
+lista1.pop()
 print(lista1)
 
 espaco(1)
 
-del lista1[2] # comando del + nome da lista + [índice] --> apaga o elemento do índice correspondente
+del lista1[2] 
 print(lista1)
 
 espaco(1)
 
-lista1.remove('Kiwi') # nome da lista + .remove + ('nome do elemento') --> apaga o elemento baseado no valor do elemento
+lista1.remove('Kiwi')
 print(lista1)
 
 espaco(1)
 
-print(lista1.count('Banana')) # lista + .count + ('elemento') --> conta quantos vezes esse 'elemento' aparece na lista
+print(lista1.count('Banana')) 
 lista1.append('Banana')
 print(lista1.count('Banana'))
 lista1.remove('Banana')
 
 espaco(1)
 print(f'antes do .reverse {lista1}')
-lista1.reverse() #inverte a ordem dos elementos da lista
+lista1.reverse() 
 print(f'depois do .reverse {lista1}')
 
 espaco(1)
 
 print(f'antes do .sort {lista1}')
-lista1.sort()           # organiza a lista em ordem alphanumeric
+lista1.sort()          
 print(f'depois do .sort {lista1}')
 
 espaco(1)
@@ -59,13 +59,13 @@ dobronumeros.clear()
 
 espaco(1)
 
-dobronumeros = [numero * 2 for numero in numeros] # novalista = [expressão + for + item + in + lista]
+dobronumeros = [numero * 2 for numero in numeros]
 print(dobronumeros)
 
 espaco(1)
 
 nomes = ['Pedro', 'Nicolau', 'Valentina', 'Sirlei', 'Nick']
-nomes_maisculos = [nome.upper() for nome in nomes if nome[0] == 'N'] # novalista = [expressão + for + item + in + lista + condição]
+nomes_maisculos = [nome.upper() for nome in nomes if nome[0] == 'N']
 print(nomes)
 print(nomes_maisculos)
 
